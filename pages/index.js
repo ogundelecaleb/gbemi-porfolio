@@ -54,8 +54,8 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+          <div className="text-center lg:p-10 py-10">
+            <h2 className="text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Kukoyi Oluwagbemisola
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -82,7 +82,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">My Story</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-justify text-gray-800 dark:text-gray-200">
               Zainab Kukoyi is a talented and passionate data scientist hailing
               from Lagos State, Nigeria. With a keen eye for detail and a strong
               background in statistics and data analysis, she has become a
@@ -124,7 +124,7 @@ export default function Home() {
           <div className=" py-10">
             <h3 className="text-3xl py-1 dark:text-white ">ELEVATOR PITCH</h3>
             <a href="https://drive.google.com/file/d/12cyJpSiSHpbqXrIzf4XG8zZACvJ7YtOe/view?usp=drivesdk">
-              <button className="mx-auto rounded-lg border p-3 text-gray-800 dark:text-gray-200">
+              <button className="mx-auto bg-gray-900 rounded-lg border p-3 text-gray-200">
                 click to watch video
               </button>
             </a>
@@ -138,7 +138,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="mx-auto rounded-lg border p-3 text-gray-800 dark:text-gray-200">
+              <button className="mx-auto bg-gray-900 rounded-lg border p-3 text-gray-200">
                 click to redirect to portfolio page
               </button>
             </a>
@@ -147,9 +147,9 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 text-gray-800 dark:text-gray-200 text-center ">
-              Contact Me
+              Lets Talk!
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-center">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 text-center mb-5">
               Ready to unlock the potential of your data or explore new
               opportunities in the world of data science? Don't hesitate to get
               in touch! Whether you're seeking insights, collaboration, or
