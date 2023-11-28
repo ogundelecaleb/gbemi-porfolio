@@ -8,6 +8,7 @@ import {
 import { GoLocation, GoMail } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { IoMdArrowForward } from "react-icons/io";
 import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
 import gbemi from "../public/gbemi.jpg";
@@ -57,7 +58,7 @@ export default function Home() {
           </nav>
           <div className="text-center lg:p-10 py-10">
             <h2 className="text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-            Zainab Oluwagbemisola Kukoyi 
+              Zainab Oluwagbemisola Kukoyi
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Elevating Insights Through Data.
@@ -103,7 +104,8 @@ export default function Home() {
               developing questionnaires, ensuring data quality, and employing
               the most effective analytical approaches. Notably contributed to
               cost- cutting initiatives during a brief tenure at GlobalShala,
-              showcasing proficiency in data evaluation and visualization.<br/> As a
+              showcasing proficiency in data evaluation and visualization.
+              {/* <br/> As a
               Student Intern at the Lagos Bureau of Statistics, actively
               participated in survey design, data compilation, and report
               generation, emphasizing strong communication of actionable
@@ -113,7 +115,7 @@ export default function Home() {
               Science program at ExploreAI Academy, demonstrating proficiency in
               SQL, Power BI, and Python for comprehensive data manipulation and
               analysis. Seeking opportunities to apply my skills and contribute
-              to data-driven decision-making processes.
+              to data-driven decision-making processes. */}
             </p>
           </div>
           {/* <div className=" py-10">
@@ -128,13 +130,58 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <div className="px-auto mt-3">
+
+            <div className="mb-3">
+              <img src="/dog.jpg" alt="" className="rounded-2xl hover:-translate-y-2 transition ease-in-out duration-150" />
+              <Link
+                href="https://www.datascienceportfol.io/zainabkukoyi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="text-md underline cursor-pointer py-2 leading-8  text-gray-800 dark:text-gray-200">
+                  Wrangling and Analysing Twitter user WeRateDogs data with
+                  Python
+                </p>
+              </Link>
+            </div>
+
+            <div className="mb-3">
+              <img src="/geospatial.jpg" alt="" className="rounded-2xl hover:-translate-y-2 transition ease-in-out duration-150" />
+              <Link
+                href="https://www.datascienceportfol.io/zainabkukoyi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="text-md underline cursor-pointer py-2 leading-8  text-gray-800 dark:text-gray-200">
+                  Geospatial analysis of multiple sexual partnership among
+                  Nigeria young adult.
+                </p>
+              </Link>
+            </div>
+
+            <div className="mb-3">
+              <img src="/sql.png" alt="" className="rounded-2xl hover:-translate-y-2 transition ease-in-out duration-150" />
+              <Link
+                href="https://www.datascienceportfol.io/zainabkukoyi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="text-md underline cursor-pointer py-2 leading-8  text-gray-800 dark:text-gray-200">
+                  Querying Movie Database(TMDB) with sql
+                </p>
+              </Link>
+            </div>
+
+            </div>
+
             <a
               href="https://www.datascienceportfol.io/zainabkukoyi"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="mx-auto bg-gray-900 rounded-lg border p-3 text-gray-200">
-                click to redirect to my  portfolio page
+              <button className="mx-auto flex items-center bg-gray-900 rounded-lg border p-3 text-gray-200">
+                more <IoMdArrowForward/>
               </button>
             </a>
           </div>
